@@ -22,6 +22,19 @@ If you want a smaller file and only use a limited number of social network, you 
 
 After that you can choose which platform you need and load them in your project.
 
+You can also include it via a CDN: 
+For all platforms:
+
+```
+<script src="https://cdn.jsdelivr.net/npm/sharrre@2/jquery.sharrre.min.js"></script>
+```
+
+For platforms of your choice:
+```
+<script src="https://cdn.jsdelivr.net/npm/sharrre@2/src/js/jquery.sharrre.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sharrre@2/src/js/platform/platform.js"></script>
+```
+
 # Usage
 
 ```javascript
